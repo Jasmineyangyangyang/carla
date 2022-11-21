@@ -219,7 +219,7 @@ else
 
   # rpclib does not use any cmake 3.9 feature.
   # As cmake 3.9 is not standard in Ubuntu 16.04, change cmake version to 3.5
-  sed -i s/"3.9.0"/"3.5.0"/g ${RPCLIB_BASENAME}-source/CMakeLists.txt
+  sed -i s/"3.9.0"/"3.12.0"/g ${RPCLIB_BASENAME}-source/CMakeLists.txt
 
   mkdir -p ${RPCLIB_BASENAME}-libcxx-build
 
